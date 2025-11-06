@@ -1,38 +1,186 @@
-# Privacy Policy
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>LinguaSwipe — Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy for LinguaSwipe by Kartlik Team." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="LinguaSwipe — Privacy Policy" />
+  <meta property="og:description" content="How LinguaSwipe handles your information." />
+  <meta property="og:type" content="article" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #0f172a;
+      --muted: #475569;
+      --card: #f8fafc;
+      --link: #0ea5e9;
+      --border: #e2e8f0;
+      --radius: 16px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1020;
+        --fg: #e5e7eb;
+        --muted: #9aa4b2;
+        --card: #0f172a;
+        --link: #38bdf8;
+        --border: #1f2937;
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    header {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      line-height: 1.25;
+      font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+      letter-spacing: -0.02em;
+    }
+    .subtitle {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.98rem;
+    }
+    nav.toc {
+      margin: 24px 0 32px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+    }
+    nav.toc strong { display: block; margin-bottom: 6px; }
+    nav.toc ul {
+      margin: 0;
+      padding-left: 18px;
+      columns: 2;
+      column-gap: 28px;
+    }
+    @media (max-width: 640px) { nav.toc ul { columns: 1; } }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      margin: 18px 0;
+    }
+    h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    ul { margin: 0.5rem 0 0.25rem 1.25rem; }
+    a { color: var(--link); text-underline-offset: 3px; }
+    footer {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 28px;
+    }
+    /* Print */
+    @media print {
+      body { background: #fff; }
+      header, section, nav.toc { break-inside: avoid; }
+      a { color: #000; text-decoration: underline; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle"><em>Last updated: October 11, 2024</em></p>
+      <p class="subtitle">LinguaSwipe (“the app”) is published by Kartlik Team. This policy explains how we handle your information when you use the app.</p>
+    </header>
 
-_Last updated: October 11, 2024_
+    <nav class="toc" aria-label="Table of Contents">
+      <strong>Contents</strong>
+      <ul>
+        <li><a href="#information-we-collect">Information We Collect</a></li>
+        <li><a href="#how-we-use-your-information">How We Use Your Information</a></li>
+        <li><a href="#third-party-services">Third-Party Services</a></li>
+        <li><a href="#data-retention-and-security">Data Retention and Security</a></li>
+        <li><a href="#your-choices">Your Choices</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
 
-LinguaSwipe (“the app”) is published by Kartlik Team. This policy explains how we handle your information when you use the app.
+    <section id="information-we-collect">
+      <h2>Information We Collect</h2>
+      <ul>
+        <li><strong>Account data:</strong> The app does not require you to create an account or share personal details to study vocabulary.</li>
+        <li><strong>Usage data:</strong> We store your learning progress locally on your device. If you enable cloud backup through your platform provider, the backup is handled by that provider under their own terms.</li>
+        <li><strong>Diagnostic data:</strong> Crash reports and performance metrics may be collected by Apple and shared with us in an aggregated form when you opt in to share analytics.</li>
+      </ul>
+    </section>
 
-## Information We Collect
+    <section id="how-we-use-your-information">
+      <h2>How We Use Your Information</h2>
+      <ul>
+        <li>To provide core features such as study progress, quiz history, and personalized content.</li>
+        <li>To improve reliability and understand general usage trends through aggregated analytics.</li>
+        <li>To communicate important updates or respond to support requests you initiate.</li>
+      </ul>
+    </section>
 
-- Account data: The app does not require you to create an account or share personal details to study vocabulary.  
-- Usage data: We store your learning progress locally on your device. If you enable cloud backup through your platform provider, the backup is handled by that provider under their own terms.  
-- Diagnostic data: Crash reports and performance metrics may be collected by Apple and shared with us in an aggregated form when you opt in to share analytics.
+    <section id="third-party-services">
+      <h2>Third-Party Services</h2>
+      <ul>
+        <li><strong>Apple:</strong> Distributes the iOS version of the app and may collect diagnostics and purchase information subject to Apple’s policies.</li>
+        <li><strong>Flutter &amp; Firebase (optional):</strong> The app is built with Flutter. Some builds may use Firebase Crashlytics or Analytics when explicitly enabled to identify bugs and improve stability. No personally identifiable information is stored outside the services described above.</li>
+      </ul>
+    </section>
 
-## How We Use Your Information
+    <section id="data-retention-and-security">
+      <h2>Data Retention and Security</h2>
+      <ul>
+        <li>Learning progress is stored on your device. Deleting the app removes this data.</li>
+        <li>Aggregated analytics from Apple or Firebase are retained only as long as necessary to operate and improve the service.</li>
+        <li>We use industry-standard safeguards to protect any data that is transmitted.</li>
+      </ul>
+    </section>
 
-- To provide core features such as study progress, quiz history, and personalized content.  
-- To improve reliability and understand general usage trends through aggregated analytics.  
-- To communicate important updates or respond to support requests you initiate.
+    <section id="your-choices">
+      <h2>Your Choices</h2>
+      <ul>
+        <li>You can reset your learning progress from the in-app settings.</li>
+        <li>You can disable optional analytics sharing in your device’s system settings.</li>
+        <li>To request deletion of support conversations or submit privacy questions, contact us using the email below.</li>
+      </ul>
+    </section>
 
-## Third-Party Services
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <p>If you have questions about this Privacy Policy, email us at
+        <a href="mailto:linguaswipe@gmail.com">linguaswipe@gmail.com</a>.
+      </p>
+    </section>
 
-- **Apple**: Distributes the iOS version of the app and may collect diagnostics and purchase information subject to Apple’s policies.  
-- **Flutter & Firebase (optional)**: The app is built with Flutter. Some builds may use Firebase Crashlytics or Analytics when explicitly enabled to identify bugs and improve stability. No personally identifiable information is stored outside the services described above.
+    <footer>
+      © <span id="year"></span> Kartlik Team · This page is provided for transparency and does not create contractual obligations beyond applicable law and platform terms.
+    </footer>
+  </main>
 
-## Data Retention and Security
-
-- Learning progress is stored on your device. Deleting the app removes this data.  
-- Aggregated analytics from Apple or Firebase are retained only as long as necessary to operate and improve the service.  
-- We use industry-standard safeguards to protect any data that is transmitted.
-
-## Your Choices
-
-- You can reset your learning progress from the in-app settings.  
-- You can disable optional analytics sharing in your device’s system settings.  
-- To request deletion of support conversations or submit privacy questions, contact us using the email below.
-
-## Contact Us
-
-If you have questions about this Privacy Policy, email us at **linguaswipe@gmail.com**.
+  <script>
+    // Auto-year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
