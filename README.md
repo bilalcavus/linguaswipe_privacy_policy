@@ -1,0 +1,1 @@
+# linguaswipe_privacy_policy
